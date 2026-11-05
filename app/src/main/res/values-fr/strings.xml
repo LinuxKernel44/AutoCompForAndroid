@@ -1,3 +1,74 @@
 <resources>
     <string name="app_name">AutoComp</string>
+    <string name="notif_channel">Service du compresseur</string>
+    <string name="notif_waiting_shizuku">En attente de Shizuku…</string>
+    <plurals name="notif_apps">
+        <item quantity="one">Compression de %d application</item>
+        <item quantity="other">Compression de %d applications</item>
+    </plurals>
+    <string name="action_turn_off">Désactiver</string>
+    <string name="tile_label">AutoComp</string>
+
+    <string name="shizuku_not_installed">Shizuku n\'est pas installé</string>
+    <string name="shizuku_not_running">Shizuku n\'est pas démarré</string>
+    <string name="shizuku_needs_permission">Autorisation Shizuku requise</string>
+    <string name="shizuku_connecting">Connexion à Shizuku…</string>
+    <string name="shizuku_ready">Shizuku connecté</string>
+    <string name="btn_get_shizuku">Obtenir Shizuku</string>
+    <string name="btn_open_shizuku">Ouvrir Shizuku</string>
+    <string name="btn_grant">Accorder l\'accès</string>
+    <string name="btn_setup_guide">Guide d\'installation</string>
+
+    <string name="enable_label">Compresser le son des autres apps</string>
+    <string name="presets_title">Préréglage</string>
+    <string name="preset_soft">Doux</string>
+    <string name="preset_normal">Normal</string>
+    <string name="preset_strong">Fort</string>
+    <string name="preset_night">Nuit</string>
+    <string name="preset_custom">Perso</string>
+
+    <string name="active_apps">Sessions audio</string>
+    <string name="no_active_apps">Rien n\'est en lecture pour le moment.</string>
+    <string name="status_compressing">compression</string>
+    <string name="status_bypassed">ignorée</string>
+    <string name="status_paused">en pause</string>
+    <string name="status_error">erreur : %s</string>
+    <string name="level_format">%1$.0f dB</string>
+
+    <string name="btn_advanced">Réglages avancés</string>
+    <string name="btn_apps">Profils par application</string>
+    <string name="btn_battery">Désactiver l\'optimisation de la batterie</string>
+    <string name="battery_ok">L\'optimisation de la batterie est désactivée pour AutoComp</string>
+    <string name="start_on_boot">Démarrer au lancement du téléphone</string>
+    <string name="back">Retour</string>
+
+    <string name="adv_title">Réglages avancés</string>
+    <string name="adv_note">Modifier une valeur bascule sur le préréglage Perso.</string>
+    <string name="multiband">Multibande (6 bandes)</string>
+    <string name="threshold">Seuil</string>
+    <string name="ratio">Ratio</string>
+    <string name="makeup">Gain de compensation</string>
+    <string name="attack">Attaque</string>
+    <string name="release">Relâchement</string>
+    <string name="knee">Coude</string>
+    <string name="limiter">Seuil du limiteur</string>
+    <string name="band_enabled">Bande active</string>
+    <string name="copy_from">Partir du préréglage</string>
+
+    <string name="apps_title">Profils par application</string>
+    <string name="apps_search">Rechercher une app</string>
+    <string name="profile_default">Par défaut</string>
+    <string name="profile_bypass">Ignorer</string>
+    <string name="apps_playing">En lecture</string>
+
+    <string name="setup_title">Guide d\'installation</string>
+    <string name="setup_why">AutoComp attache un effet audio aux sessions des autres applications. Android ne le permet qu\'avec des privilèges élevés, que Shizuku fournit sans root.</string>
+    <string name="setup_step_install">1. Installez Shizuku (depuis ses releases GitHub ou Google Play).</string>
+    <string name="setup_step_start_11">2. Ouvrez Shizuku et démarrez-le via le débogage sans fil (Android 11+) : activez les options pour les développeurs, activez le débogage sans fil, appairez, puis appuyez sur Démarrer.</string>
+    <string name="setup_step_start_old">2. Ouvrez Shizuku et suivez ses instructions pour le démarrer avec un câble USB et ADB (Android 9–10).</string>
+    <string name="setup_step_grant">3. Revenez ici et accordez à AutoComp l\'accès à Shizuku.</string>
+    <string name="setup_step_reboot">Shizuku doit être relancé après chaque redémarrage, sauf avec root ou le démarrage automatique par débogage sans fil d\'Android 11+.</string>
+    <string name="setup_privacy">AutoComp n\'a aucun accès réseau et ne collecte rien.</string>
+    <string name="btn_dev_settings">Options pour les développeurs</string>
+    <string name="btn_meter_perm">Activer l\'indicateur de niveau</string>
 </resources>

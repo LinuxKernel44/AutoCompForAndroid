@@ -71,4 +71,5 @@ dependencies {
     implementation(libs.shizuku.provider)
     implementation(libs.coroutines.android)
     testImplementation(libs.junit)
+    testImplementation(libs.org.json)
 }

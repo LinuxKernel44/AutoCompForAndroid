@@ -1,3 +1,74 @@
 <resources>
     <string name="app_name">AutoComp</string>
+    <string name="notif_channel">Compressor service</string>
+    <string name="notif_waiting_shizuku">Waiting for Shizuku…</string>
+    <plurals name="notif_apps">
+        <item quantity="one">Compressing %d app</item>
+        <item quantity="other">Compressing %d apps</item>
+    </plurals>
+    <string name="action_turn_off">Turn off</string>
+    <string name="tile_label">AutoComp</string>
+
+    <string name="shizuku_not_installed">Shizuku is not installed</string>
+    <string name="shizuku_not_running">Shizuku is not running</string>
+    <string name="shizuku_needs_permission">Shizuku permission needed</string>
+    <string name="shizuku_connecting">Connecting to Shizuku…</string>
+    <string name="shizuku_ready">Shizuku connected</string>
+    <string name="btn_get_shizuku">Get Shizuku</string>
+    <string name="btn_open_shizuku">Open Shizuku</string>
+    <string name="btn_grant">Grant access</string>
+    <string name="btn_setup_guide">Setup guide</string>
+
+    <string name="enable_label">Compress audio of other apps</string>
+    <string name="presets_title">Preset</string>
+    <string name="preset_soft">Soft</string>
+    <string name="preset_normal">Normal</string>
+    <string name="preset_strong">Strong</string>
+    <string name="preset_night">Night</string>
+    <string name="preset_custom">Custom</string>
+
+    <string name="active_apps">Audio sessions</string>
+    <string name="no_active_apps">Nothing is playing right now.</string>
+    <string name="status_compressing">compressing</string>
+    <string name="status_bypassed">bypassed</string>
+    <string name="status_paused">paused</string>
+    <string name="status_error">error: %s</string>
+    <string name="level_format">%1$.0f dB</string>
+
+    <string name="btn_advanced">Advanced settings</string>
+    <string name="btn_apps">Per-app profiles</string>
+    <string name="btn_battery">Disable battery optimization</string>
+    <string name="battery_ok">Battery optimization is disabled for AutoComp</string>
+    <string name="start_on_boot">Start on boot</string>
+    <string name="back">Back</string>
+
+    <string name="adv_title">Advanced settings</string>
+    <string name="adv_note">Editing a value switches to the Custom preset.</string>
+    <string name="multiband">Multiband (6 bands)</string>
+    <string name="threshold">Threshold</string>
+    <string name="ratio">Ratio</string>
+    <string name="makeup">Makeup gain</string>
+    <string name="attack">Attack</string>
+    <string name="release">Release</string>
+    <string name="knee">Knee</string>
+    <string name="limiter">Limiter threshold</string>
+    <string name="band_enabled">Band active</string>
+    <string name="copy_from">Start from preset</string>
+
+    <string name="apps_title">Per-app profiles</string>
+    <string name="apps_search">Search apps</string>
+    <string name="profile_default">Default</string>
+    <string name="profile_bypass">Bypass</string>
+    <string name="apps_playing">Playing now</string>
+
+    <string name="setup_title">Setup guide</string>
+    <string name="setup_why">AutoComp attaches an audio effect to the sessions of other apps. Android only allows that with elevated privileges, which Shizuku provides without root.</string>
+    <string name="setup_step_install">1. Install Shizuku (from its GitHub releases or Google Play).</string>
+    <string name="setup_step_start_11">2. Open Shizuku and start it with Wireless debugging (Android 11+): enable Developer options, turn on Wireless debugging, pair, then tap Start.</string>
+    <string name="setup_step_start_old">2. Open Shizuku and follow its instructions to start it with a USB cable and ADB (Android 9–10).</string>
+    <string name="setup_step_grant">3. Come back here and grant AutoComp access to Shizuku.</string>
+    <string name="setup_step_reboot">Shizuku has to be started again after each reboot unless you use root or Android 11+ wireless debugging auto-start.</string>
+    <string name="setup_privacy">AutoComp has no network access and collects nothing.</string>
+    <string name="btn_dev_settings">Developer options</string>
+    <string name="btn_meter_perm">Enable level meter</string>
 </resources>
