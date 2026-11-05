@@ -85,3 +85,11 @@ GitHub Release with the APK and checksum.
   coverage may be partial. Documented in README.
 - OEM (Samsung) effect handling may differ from AOSP; validated on the S10.
 - Shizuku must be running (restart needed after reboot on non-rooted Android < 11).
+
+## Status (v1.0.0)
+
+All phases 0–10 completed. Deviations from the initial plan:
+- Phase 7: the meter shows **output peak level** (Visualizer, RECORD_AUDIO granted through Shizuku) rather than gain reduction,
+  because `DynamicsProcessing` does not report gain reduction.
+- Phase 9: validated on the S10 with YouTube; the listening check with other apps (Spotify, Netflix, VLC, games),
+  Bluetooth route changes and long-run battery profiling remain to be done by ear/over time.

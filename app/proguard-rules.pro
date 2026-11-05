@@ -1,1 +1,2 @@
 -keep class io.github.linuxkernel44.autocomp.shizuku.** { *; }
+-keep class io.github.linuxkernel44.autocomp.IShellService** { *; }
